@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+.cardcontaienerdiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 88px;
+    margin-bottom: 88px;
+
+}
+
+
+.carddiv {
+    Width: 290px;
+    Height: 326px;
+border: 1px solid rgba(255, 255, 255, 0.189);
+border-radius: 20px;
+margin-left: 30px;
+transition: background 0.3s ease;
+cursor: pointer;
+}
+
+.carddiv:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Change background color on hover */
+}
+
+.cardh5 {
+    font-family: "Inter", sans-serif;
+font-weight: 600;
+font-size: 20px;
+color: #ffffff;
+margin-left: 17px;
+margin-top: 25px;
+margin-bottom: 0;
+
+}
+
+.cardptag {
+    margin-left: 10px;
+    width: 267px;
+    height: 73px;
+    opacity: 20%;
+    color: aliceblue;
+    font-size: 14px;
+    line-height: 22.75px;
+    /* font-weight: 100; */
+    text-wrap: pretty;
+    text-align: left;
+    /* margin-bottom: 0px; */
+
+}
+
+.ellipse{
+    background-color: #ffffff;
+    height: 95px;
+    width: 95px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.cardimgdiv{
+    width: 56px;
+    height: 56px;
+    margin: 20px;
+}
+
+.cardbtn {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+   
+    width: 110px;
+    height: 40px;
+    /* opacity: 10%; */
+    border-radius: 43px;
+    position: absolute;
+    margin: 0px 0px 0px 5px;
+    background: #E3B748;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.cardbtn:hover {
+    background: #fbff01; 
+}
