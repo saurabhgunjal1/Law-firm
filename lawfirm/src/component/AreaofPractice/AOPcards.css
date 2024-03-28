@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+
+.AOPHEADING {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+
+.maindiv {
+    width: 1045px;
+    /* height: 800px; */
+    height: 321px;
+    margin-left: 74px;
+    margin-right: 88px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.wideimg {
+    height: 280px;
+    width: 581px;
+    margin: 40px 40px 40px 0px;
+
+}
+
+.shortimg {
+    height: 280px;
+    width: 315px;
+    margin: 40px 0px 40px 0px;
+}
+
+
+.h3wideimg {
+    font-family: "Inter", sans-serif;
+font-weight: 500;
+    
+color: #FFFBF2;
+    
+    position: absolute;
+    margin: 260px 11px 0px 0px;
+    padding: 0px 355px 24px 0px;
+
+}
+
+.h3shortimg {
+    font-family: "Inter", sans-serif;
+font-weight: 500;
+color: #FFFBF2;
+    
+    position: absolute;
+    margin: 260px 0px 0px 0px;
+    padding: 0px 0px 24px 628px;
+}
+
+.wide2img {
+    height: 280px;
+    width: 581px;
+    margin: 40px 0px 40px 40px;
+}
+.short2img{
+    height: 280px;
+    width: 315px;
+    margin: 40px 0px 40px 0px;
+}
+
+.h3wide2img {
+    font-family: "Inter", sans-serif;
+font-weight: 500;
+    
+color: #FFFBF2;
+
+    position: absolute;
+    margin: 260px 11px 0px 0px;
+    padding: 0px 0px 24px 355px;
+}
+
+.h3short2img {
+    font-family: "Inter", sans-serif;
+font-weight: 500;
+    color: #FFFBF2;
+    position: absolute;
+    margin: 260px 0px 0px 0px;
+    padding: 0px 614px 24px 0px
+}
+
+
+.topleveldiv {
+    margin-bottom: 95px;
+}
+

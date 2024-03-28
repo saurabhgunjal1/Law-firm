@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.allinonediv{
+    margin-bottom: 95px;
+}
+.cheading {
+    width: 300px;
+    color: #ffffff;
+    line-height: 45px;
+    font-family: "Inter", sans-serif;
+font-size: 21px;
+}
+.crouselmaindiv {
+    width: 990px;
+    margin-left: 120px;
+}
+.crouselcarddiv {
+    Width: 290px;
+    Height: 326px;
+border: 1px solid rgba(255, 255, 255, 0.189);
+border-radius: 15px;
+/* margin-left: 30px; */
+ /* margin-right: 50px; */
+transition: background 0.3s ease;
+cursor: pointer;
+}
+
+.crouselcarddiv:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Change background color on hover */
+}
+
+.crouselcardh5 {
+    font-family: "Inter", sans-serif;
+font-weight: 600;
+font-size: 20px;
+color: #ffffff;
+margin-left: 17px;
+/* margin-top: 7px; */
+margin-bottom: 0;
+
+}
+.ceo {
+    margin-left: 20px;
+    color: aliceblue;
+    margin-top: 5px;
+}
+.crouselcardptag {
+    margin-left: 10px;
+    width: 267px;
+    height: 73px;
+    opacity: 20%;
+    color: aliceblue;
+    font-size: 14px;
+    line-height: 22.75px;
+    /* font-weight: 100; */
+    text-wrap: pretty;
+    text-align: left;
+    /* margin-bottom: 0px; */
+
+}
+
+.crouselellipse{
+    background-color: #ffffff;
+    height: 95px;
+    width: 95px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.swiper-wrapper {
+ /* border: 5px solid wheat; */
+    margin-left: 0px;
+    width: 99%;
+}
+.swiper-slide {
+    margin-right: 0px;
+    width: 290px;
+}
+
+
+
+.crouselbuttondiv{
+    display: flex;
+    position: relative;
+    align-items: end;
+    /* justify-content: end; */
+    /* border: 5px solid violet; */
+    height: 83px;
+    width: 261px;
+    margin-top: 28px;
+    /* margin-left: 20px; */
+
+}
+
+.crouselheadingbtn{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
