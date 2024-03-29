@@ -8,6 +8,10 @@ import Chooseus from './component/Chooseus/choose';
 import Card from './component/Card/card';
 import AOPcards from './component/AreaofPractice/AOPcards';
 import Crousel from './component/crousel/crousel';
+import { Team } from './component/Team/team';
+import Faq from './component/FAQ/faq';
+import Subscribebox from './component/Subscribebox/subscribebox';
+import Footer from './component/Footer/footer';
 // import HeroSection from "./component/Herosection"
 
 function App() {
@@ -17,12 +21,18 @@ function App() {
         <div className='upperpart'>
       <Navbar/>
       <HeroSection/>
-      </div>
+      </div> 
+      <div className='lowerpart'>
       <Section2/>
       <Chooseus/>
       <Card/>
       <AOPcards/>
       <Crousel/>
+      <Team/>
+      <Faq/>
+      <Subscribebox/>
+      <Footer/>
+      </div>
       </StyledEngineProvider>
     </div>
   );

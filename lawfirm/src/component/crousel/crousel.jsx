@@ -25,14 +25,17 @@ export default function Crousel() {
 
     return (
      <div className='allinonediv'>
-   
+      
+           
         <div className='crouselheadingbtn'>  
+    
         <div className='cheading'>
             <h1>What says our
             happy Clients</h1>
         </div>
         
    <div className='crouselbuttondiv'>
+    
    <CarouselLeftNavigation/>
             <CarouselRightNavigation/> 
    </div>

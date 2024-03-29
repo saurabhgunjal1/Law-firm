@@ -22,7 +22,7 @@ const HeroSection=()=>{
                 <div>
             
               <img src={mailicon} alt="img"  className="searchbarimg"/>
-                <input type="text" placeholder="Enter your email address" />
+                <input type="text" placeholder="Enter your email address" className="heroinput"/>
                 <button className="searchbarbtn">let's Talk</button>
                 </div>
             </div>

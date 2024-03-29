@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../../assets/logo.png"
 import "./navbar.css"
+import AOPcards from "../AreaofPractice/AOPcards";
 const Navbar=()=>{
     return(
         <nav>
@@ -17,6 +18,7 @@ const Navbar=()=>{
        <a href="#">Attorneys</a>
        </div>
        <div>
+      
        <a href="#">Practice Areas</a>
        </div>
        <div>

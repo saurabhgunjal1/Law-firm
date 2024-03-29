@@ -28,14 +28,23 @@
     height: 280px;
     width: 581px;
     margin: 40px 40px 40px 0px;
+    transition: transform 0.3s ease;
 
 }
+.wideimg:hover {
+    transform: scale(1.01); /* Increase the size by 10% */
+  }
 
 .shortimg {
     height: 280px;
     width: 315px;
     margin: 40px 0px 40px 0px;
+    transition: transform 0.3s ease;
+
 }
+.shortimg:hover {
+    transform: scale(1.01); /* Increase the size by 10% */
+  }
 
 
 .h3wideimg {
@@ -64,12 +73,24 @@ color: #FFFBF2;
     height: 280px;
     width: 581px;
     margin: 40px 0px 40px 40px;
+    transition: transform 0.3s ease;
+
 }
+
+.wide2img:hover {
+    transform: scale(1.01); /* Increase the size by 10% */
+  }
 .short2img{
     height: 280px;
     width: 315px;
     margin: 40px 0px 40px 0px;
+    transition: transform 0.3s ease;
+
 }
+
+.short2img:hover {
+    transform: scale(1.01); /* Increase the size by 10% */
+  }
 
 .h3wide2img {
     font-family: "Inter", sans-serif;
