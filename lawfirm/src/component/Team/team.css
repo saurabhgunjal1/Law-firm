@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
+
+.teamcards:hover .teamcardH3,
+.teamcards:hover .teamcardp {
+    color: #373737;
+}
+
+
 .Allteamjsx {
   margin-top: 170px;
   margin-bottom: 140px;
@@ -49,6 +56,7 @@ cursor: pointer;
 .teamcarddiv :hover{
     background: #E3B748;
     border: 1px solid #E3B748;
+    /* color: black; */
 
     
 }
@@ -86,4 +94,12 @@ cursor: pointer;
 .cardtextdiv {
     height: 61px;
     width: 109px;
+    border-radius: 10px;
 }
+
+/* .teamcardH3:hover {
+    color: black;
+} */
+
+
+
